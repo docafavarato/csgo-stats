@@ -1,10 +1,9 @@
 import requests
 
 class User:
-    '''Name or ID'''
     def __init__(self, name: str):
         self.name = name
-        auth = {'TRN-Api-Key': '1dd02ede-b940-44f9-bce6-4eb34908ea93'}
+        auth = {'TRN-Api-Key': 'SUA_CHAVE_API'}
         req = requests.get(f'https://public-api.tracker.gg/v2/csgo/standard/profile/kbm/{self.name}', params=auth)
         self.data = req.json()
 
@@ -42,5 +41,3 @@ class User:
                 'ties': self.data['data']['segments'][0]['stats']['ties']['displayValue'],
                 'winPercentage': self.data['data']['segments'][0]['stats']['wlPercentage']['displayValue'],}
         return info
-
-#print(User('76561198358702059').basic_info())
