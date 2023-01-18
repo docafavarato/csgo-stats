@@ -1,0 +1,13 @@
+body {background-color: rgb(64, 65, 65) !important;}
+
+#firstContainer {color: white; margin-top: 1%}
+
+#firstContainer h1, p {margin-top: -12%; margin-left: 15%;}
+
+#firstContainer h1 {font-size: 350%;}
+
+#info {color: white;}
+
+#info h1 {margin-top: 8%;}
+
+#matchesInfo {color: white; margin-top: 3%;} 
