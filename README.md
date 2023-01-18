@@ -5,6 +5,7 @@ Tracker do Counter-Strike: Global Offensive feito com flask consumindo a API de 
 - Foto de perfil do usuário;
 - Nome do usuário;
 - Região do usuário;
+- Tempo de jogo do usuário;
 - Informações de combate do usuário (K/D, Kills, Mortes, Dano causado, Tiros na cabeça, Tiros disparados);
 - Informações de partidas do usuário (MVP, Vitórias, Empates, Derrotas, Bombas plantadas, Bombas desarmadas)
 
